@@ -1,5 +1,6 @@
 import Alpine from 'alpinejs';
 
+// eslint-disable-next-line no-undef
 window.Alpine = Alpine;
 
 Alpine.start();
@@ -17,4 +18,4 @@ if (window.location.search.includes('test_a11y')) {
 /**
  * @see {@link https://webpack.js.org/api/hot-module-replacement/}
  */
-import.meta.webpackHot?.accept(console.error);
+import.meta.webpackHot?.accept(console.error); // eslint-disable-line no-console

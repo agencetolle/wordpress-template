@@ -1,5 +1,5 @@
-import domReady from '@roots/sage/client/dom-ready';
-import { registerBlockStyle, unregisterBlockStyle } from '@wordpress/blocks';
+import domReady from '@roots/sage/client/dom-ready'; // eslint-disable-line
+import { registerBlockStyle, unregisterBlockStyle } from '@wordpress/blocks'; // eslint-disable-line
 
 /**
  * Editor entrypoint
@@ -16,4 +16,5 @@ domReady(() => {
 /**
  * @see {@link https://webpack.js.org/api/hot-module-replacement/}
  */
+// eslint-disable-next-line
 import.meta.webpackHot?.accept(console.error);
