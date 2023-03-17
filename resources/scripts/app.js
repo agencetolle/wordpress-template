@@ -10,7 +10,7 @@ if (window.location.search.includes('test_a11y')) {
   import('./utils/test-a11y.js').then(({ default: testA11y }) => {
     testA11y(document).catch((errors) => {
       // Console table the errors without the index
-      console.table(errors)
+      console.table(errors);
     });
   });
 }

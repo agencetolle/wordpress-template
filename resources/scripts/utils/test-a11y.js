@@ -1,4 +1,4 @@
-import axe from 'axe-core'
+import axe from 'axe-core';
 
 /**
  * Scan the page for a11y violations
@@ -6,15 +6,18 @@ import axe from 'axe-core'
  * @param {(Document | Element | string)} context
  */
 export default async function testA11y(context) {
-  console.log('Running a11y tests...')
+  console.log('Running a11y tests...');
   const options = {
     elementRef: true,
     resultTypes: ['violations'],
-  }
+  };
 
-  const results = await axe.run({
-    include: [context],
-  }, options);
+  const results = await axe.run(
+    {
+      include: [context],
+    },
+    options
+  );
 
   if (results.violations.length) {
     // Throw an error and return the violations

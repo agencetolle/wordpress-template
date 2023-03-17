@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\Input;
 
 use Roots\Acorn\View\Component;
 
