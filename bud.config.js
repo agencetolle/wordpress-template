@@ -34,7 +34,7 @@ export default async (app) => {
      * Proxy origin (`WP_HOME`)
      * @see {@link https://bud.js.org/docs/bud.proxy/}
      */
-    .proxy('https://tolle-headless.test')
+    .proxy('https://domain.test')
 
     /**
      * Development origin
@@ -46,7 +46,7 @@ export default async (app) => {
      * URI of the `public` directory
      * @see {@link https://bud.js.org/docs/bud.setPublicPath/}
      */
-    .setPublicPath('/wp-content/themes/headless/public')
+    .setPublicPath('/wp-content/themes/theme/public')
 
     /**
      * Generate WordPress `theme.json`
