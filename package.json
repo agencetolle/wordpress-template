@@ -25,7 +25,7 @@
     "@roots/bud-stylelint": "^6.11.0",
     "@roots/bud-tailwindcss": "6.11.0",
     "@roots/sage": "6.11.0",
-    "eslint": "^8.35.0",
+    "eslint": "^8.38.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.7.0",
