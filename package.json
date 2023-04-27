@@ -19,7 +19,7 @@
     "translate:mo": "wp i18n make-mo ./resources/lang ./resources/lang"
   },
   "devDependencies": {
-    "@roots/bud": "6.11.0",
+    "@roots/bud": "6.12.1",
     "@roots/bud-eslint": "^6.11.0",
     "@roots/bud-prettier": "^6.11.0",
     "@roots/bud-stylelint": "^6.11.0",
